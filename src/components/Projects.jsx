@@ -8,21 +8,22 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 export default function Projects() {
   return (
     <section id="projects" className="py-28 px-6 max-w-6xl mx-auto">
-      <BracketHeading>Projects</BracketHeading>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((p, i) => (
-          <Reveal key={p.title} delay={(i % 3) * 0.08}>
-            <Tilt
-              glareEnable
-              glareMaxOpacity={0.15}
-              glareColor="#ffffff"
-              glarePosition="all"
-              tiltMaxAngleX={8}
-              tiltMaxAngleY={8}
-              scale={1.02}
-              transitionSpeed={1200}
-              className="h-full"
-            >
+  <BracketHeading>Projects</BracketHeading>
+
+  <div className="grid md:grid-cols-2 gap-8">
+    {projects.map((p, i) => (
+      <Reveal key={p.title} delay={(i % 3) * 0.08}>
+        <Tilt
+          glareEnable
+          glareMaxOpacity={0.15}
+          glareColor="#ffffff"
+          glarePosition="all"
+          tiltMaxAngleX={8}
+          tiltMaxAngleY={8}
+          scale={1.02}
+          transitionSpeed={1200}
+          className="h-full"
+        >
               <div className="glass-card p-5 h-full flex flex-col">
                 {p.image ? (
                   <img
