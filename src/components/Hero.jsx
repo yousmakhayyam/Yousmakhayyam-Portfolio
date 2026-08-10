@@ -57,7 +57,7 @@ export default function Hero() {
             style={{ background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))' }}
           />
           <img
-            src="/profile-photo.PNG"
+            src="/profile-photo1.PNG"
             alt={profile.name}
             className="relative w-full h-full object-cover rounded-full border-4"
             style={{ borderColor: 'var(--bg-base)' }}
