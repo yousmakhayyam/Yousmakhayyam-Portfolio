@@ -57,7 +57,7 @@ export default function Hero() {
             style={{ background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))' }}
           />
           <img
-            src="/profile-photo1.PNG"
+            src="/profile-photo.jfif"
             alt={profile.name}
             className="relative w-full h-full object-cover rounded-full border-4"
             style={{ borderColor: 'var(--bg-base)' }}
@@ -118,7 +118,7 @@ export default function Hero() {
             View Projects
           </a>
           <a
-            href="/resume.pdf"
+            href="/Yousma_Khayyam_Resume.pdf"
             download
             className="px-6 py-3 rounded-full font-medium border hover:scale-105 transition-transform glass-card"
             style={{ color: 'var(--text-main)' }}
